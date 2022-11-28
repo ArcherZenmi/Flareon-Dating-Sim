@@ -1,20 +1,22 @@
-# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-# The game starts here.
+#
+# Filename: script.rpy
+# Author: ArcherZenmi
+#
+# Description:
+#   script.rpy is, by convention, the starting place of the projects story/script..
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    scene bg room
-
-    f "Wowie Jolteon, we're in the game!"
-
-    j "Yup."
+    scene bg
     
-    return
+    j "I can APPARATE!"
+    $ jolteon_teleport_func()
+    j "Harry Potter to the right!"
+    
+    show flareon surprised
+    f "KYA!!"
+    menu:
+        "Hi there!":
+            pass
+
+    jump event1_start
