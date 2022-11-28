@@ -122,7 +122,7 @@ label event1_date:
 
                 "I'd rather be treated by you.":
                     show flareon happy
-                    f "Nope! Breaking down people's doors is a sure sign that you’re not only a danger to yourself, but others as well!"
+                    f "Nope! Breaking down people's doors means you're clearly a public menace. (and dangerous!)"
             
             show flareon normal
             f "Jolteon!!"

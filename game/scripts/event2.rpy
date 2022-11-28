@@ -17,7 +17,13 @@ label event2_start:
     menu:
         "Don't answer yet, I need to raise your affection meter first.":
             pass
-    # Display affection meter
+    
+    show affection meter:
+        anchor (0.5, 0.5) xpos 1620 ypos -100 rotate 0
+        easein 0.5 ypos 130
+    pause 0.5
+    play sound "audio/effects/shiny.wav"
+    pause 1.0
     f "If you don’t stop, I’m actually going to call Jolteon ok?"
 
     menu:
