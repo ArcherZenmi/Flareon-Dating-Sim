@@ -88,6 +88,17 @@ label event1_date:
             f "Um... You're not a crazy person, are you?"
 
             menu:
+                "Nope! I'm just a normal human being.":
+                    show flareon surprised
+                    f "You're a HUMAN??"
+                    show flareon scared
+                    f "B-but I thought humans went extinct, right? You can't really..."
+                    f_silent "..."
+                    f "Jolteon help! There's a human!!"
+                    show jolteon tpose with dissolve
+                    j "Human huh? Yeah right. Wrong season for trick or treating bud."
+                    jump game_over
+
                 "Would a crazy person break down your door?":
                     show flareon normal
                     f "...I guess not?"
@@ -138,7 +149,7 @@ label event1_babies:
     f "...what?"
 
     menu:
-        "I wanna put my avocado in your tuna.":
+        "I wanna put my AVOCADO in your {i}tuna{/i}.":
             f "Jolteon!! There's some weird person in our house!"
             show jolteon tpose with dissolve
             j "The hell?"
@@ -171,10 +182,14 @@ label event1_babies:
                     f_silent "..."
                     show flareon angry
                     f "HIYA!!!"
+
                     scene black
+                    stop music
+                    play sound "audio/effects/punch.wav"
                     pause(1.0)
+
                     j "Huh... nice shot!"
-                    jump game_over
+                    call game_over(False)
 
                 "I'm making a salad for our date.":
                     show flareon surprised

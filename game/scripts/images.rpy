@@ -56,6 +56,10 @@ image bg:
     asset_scale
 
 # Affection Meter
-image affection meter:
-    "Affection Meter.png"
+image affection meter empty:
+    "Affection Meter Empty.png"
+    asset_scale
+
+image affection meter full:
+    "Affection Meter Full.png"
     asset_scale

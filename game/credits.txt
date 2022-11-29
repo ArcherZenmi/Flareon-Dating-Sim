@@ -1,11 +1,12 @@
 Code/App Credits:
 - Glitch effect in RenPy: https://lemmasoft.renai.us/forums/viewtopic.php?t=60668
 - Sound effects made using: https://sfbgames.itch.io/chiptone
-- Converting youtube to mp3 (my ARCEUS this is more difficult than you think to do while avoid malware adfjskfka): https://yout.com/video-mp3/
+- Converting youtube to mp3 (my ARCEUS this is more difficult than you think to do while avoid malware adfjskfkaakjfdsa): https://yout.com/video-mp3/
 
 Sound Credits:
 - Door knocking: https://www.youtube.com/watch?v=9O55mB0-BTM
 - Door breaking: https://www.youtube.com/watch?v=ztEHpEz8Gr8
+- Punch Sound: https://www.youtube.com/watch?v=OZdIbJZdSZw
 - Undertale music (Playlist): https://www.youtube.com/watch?v=s7RRgF5Ve_E&list=PLpJl5XaLHtLX-pDk4kctGxtF4nq6BIyjg&index=1
 - Pokemon Item Sound: Mudkip Goes to Walmart then Dies (no longer exists on the internet)
 

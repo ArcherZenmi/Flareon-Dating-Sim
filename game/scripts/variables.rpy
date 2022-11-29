@@ -9,6 +9,7 @@
 
 init:
     default persistent.game_not_started = True
+    default persistent.game_counter = 0
 
 init python:
     presents: int = 0

@@ -9,6 +9,7 @@
 label start:
 
     $ persistent.game_not_started = False
+    $ persistent.game_counter += 1
 
     scene black
 
@@ -22,16 +23,7 @@ label start:
         easein 0.1 ypos 0.35
         easeout 0.1 ypos 0.5
     pause 0.75
-    show affection meter:
-        anchor (0.5, 0.5) xpos 1620 ypos 130
     f "KYA!!"
-    show affection meter:
-        anchor (0.5, 0.5) xpos 1620 ypos 130 rotate 0
-        parallel:
-            linear 0.5 xpos 1820 rotate 45
-        parallel:
-            easein_quad 0.1 ypos 80
-            easeout_quad 0.4 ypos 1600
     menu:
         "Hi there!":
             pass

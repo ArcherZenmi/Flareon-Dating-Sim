@@ -8,12 +8,12 @@
 #
 
 label event3_start:
-    scene bg
-    # Animate raising affection meter (and maybe change music)
+    call fill_affection_meter
     show flareon flustered
     f_silent "..."
     f "You know, I'm starting to feel..."
 
+    stop music fadeout 1.0
     play sound "audio/effects/break.wav"
     show affection meter:
         anchor (0.5, 0.5) xpos 1620 ypos 130 rotate 0
@@ -25,7 +25,11 @@ label event3_start:
     show flareon neutral with vpunch
 
     f "Still unsatisfied?"
-    play music "sound/music/dating-tense"
+
+label quiz_retry:
+    scene bg
+    play music "audio/music/dating-tense.mp3"
+    show flareon neutral
     f "I mean, do you really know anything about me? We just barely met."
     show flareon angry
     f "If you really want to date... How about we do a quiz about me?"
@@ -39,10 +43,10 @@ label event3_start:
 
 
 label hangout:
-    # Music stop
+    stop music fadeout 1.0
     show flareon neutral
     f_silent "..."
-    # Music normal
+    play music "audio/music/dating-start.mp3"
     show flareon normal
     f "You know what? Sure!"
     f "You're a bit weird, but I don't think you're a bad person."

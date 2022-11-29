@@ -3,7 +3,7 @@
 # Author: Vladya
 # 
 # Description: This is a glitch effect written by the amazing Vladya! It was posted on LemmaSoft for free use.
-#       To clarify, this file was NOT written by me/ArcherZenmi (except for this file header comment).
+#       To clarify, this file was NOT written by ArcherZenmi/me (except for this file header comment).
 #
 
 

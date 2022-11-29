@@ -18,11 +18,17 @@ label event2_start:
         "Don't answer yet, I need to raise your affection meter first.":
             pass
     
-    show affection meter:
+    show affection meter empty:
         anchor (0.5, 0.5) xpos 1620 ypos -100 rotate 0
         easein 0.5 ypos 130
     pause 0.5
+    show affection meter:
+        ypos 130
     play sound "audio/effects/shiny.wav"
+    show affection meter:
+        matrixcolor BrightnessMatrix(0.0)
+        linear 0.3 matrixcolor BrightnessMatrix(1.0)
+        linear 0.3 matrixcolor BrightnessMatrix(0.0)
     pause 1.0
     f "If you don’t stop, I’m actually going to call Jolteon ok?"
 
@@ -37,7 +43,7 @@ label event2_start:
 
 label event2_drunk:
     show flareon neutral
-    f "Drunk…? You want to go get a drink or something?"
+    f "Drunk…? {w=0.5}You want to go get a drink or something?"
 
     menu:
         "We will drink the blood of our enemies.":
@@ -78,7 +84,7 @@ label event2_drunk:
                     f "They’re trying to steal the town’s food, so we need to protect those innocent civilians!"
                     f "Kick out the wild Pokémon so they can… starve in the wild?"
                     show flareon neutral
-                    f "I guess the wild Pokémon are just trying to feed themselves and their pack. They don’t know how to grow their own food."
+                    f "I... guess the wild Pokémon are just trying to feed themselves and their pack. They don’t know how to grow their own food. I think?"
                     f "It’s not like the guild tries to help them. That’s what Glaceon always says."
                     show flareon sad
                     f "...sorry. I get these weird thoughts sometimes."
@@ -102,11 +108,25 @@ label event2_drunk:
             f "Eh? Starbucks doesn't even exist in the Pokemon world?"
             show flareon sad
             f "Wait... What's starbucks? What am I eve-"
-            # Insert glitchy animation
-            scene bg room
+
+            window hide None
+            stop music
+            show flareon at Glitch(_fps = 3, glitch_strength = .001)
+            show affection meter at Glitch(_fps=3, glitch_strength = .001)
+            show bg at Glitch(_fps=3, glitch_strength = .1)
+            show bg as bg_back behind bg
+            play sound "audio/effects/glitch.wav"
+            pause 2.0
+            show flareon
+            show affection meter
+            show bg
+            hide bg_back
+            
+            scene black with None
             u "Uh oh, you just broke the space-time continuum!{fast}"
             u "To preserve normality, I'm gonna delete you now.{fast}"
             u "Bye bye!{fast}"
+            window auto
             call screen ending(0)
 
 
@@ -116,8 +136,8 @@ label event2_hobbies:
 
     menu:
         "I love those guild hosted tournaments!":
-            f "Hmm."
-            f "Who’s the current champion of the NWI guild-hosted tournaments?"
+            f "Oh really?"
+            f "Then who’s the current champion of the NWI guild-hosted tournaments?"
 
             menu:
                 "Uhh, Sylveon the Dragon Slayer?":
@@ -148,6 +168,7 @@ label event2_hobbies:
                 "Flareon the Fluff Ball?":
                     show flareon neutral
                     f "Did you just say that because I'm a Flareon?"
+                    show flareon angry
                     f "Of course not, Flareon’s base stats are way too weak to compete like that!"
                     show flareon sad
                     f "Saying that out loud kinda makes me..."
@@ -179,13 +200,15 @@ label event2_hobbies:
 
             show flareon surprised
             f "Oh, sorry. I’m always told to not say weird stuff, but I guess it just slipped."
+            show flareon normal
+            f "...Nevermind that. Lets do something else!"
             jump event3_start
 
         "I’m not interested in tournaments.":
             f "Mm. Why are you here again?"
             show flareon neutral
             f "Sorry, I need to get to my job at the guild. So bye."
-            jump game_over
+            call game_over(False)
 
 
 label event2_present:
