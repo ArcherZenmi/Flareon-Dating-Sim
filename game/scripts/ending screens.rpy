@@ -3,7 +3,7 @@
 # Author: ArcherZenmi
 #
 # Description:
-#   ending screens.rpy specifies... well, the screens displayed for each ending type! (including game overs)
+#   ending screens.rpy specifies... well, the screens displayed for each ending type!
 #
 
 screen ending(ending_num):
@@ -30,29 +30,12 @@ screen ending(ending_num):
     # Insert small image/art
 
     # Button to return to main menu
-    textbutton "Main Menu":
-        xalign 0.5 yalign 0.65
-        action MainMenu(False)
-
-screen game_over(punch = False):
-    # A punch sound effect for extra kick
-    #if(punch):
-    #    Play("sound", "audio/effects/punch/wav")
-
-    # Black background
-    add "black"
-
-    # Gameover title
-    text "Game Over":
-        size 60
-        color "#ffffff"
-        xalign 0.5 yalign 0.4
-
-    # Retry/restart buttons
-    textbutton "Retry":
-        xalign 0.5 yalign 0.6
-        action Jump("start")
-    if quiz_reached:
-        textbutton "Redo Quiz":
-            xalign 0.5 yalign 0.7
-            action Jump("quiz_retry")
+    if(ending_num == 0):
+        imagebutton:
+            xalign 0.49 yalign 0.65
+            action MainMenu(False)
+            auto "umbreon button %s"
+    else:
+        textbutton "Main Menu":
+            xalign 0.5 yalign 0.65
+            action MainMenu(False)

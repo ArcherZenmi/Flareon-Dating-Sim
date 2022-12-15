@@ -19,7 +19,7 @@ label presents1:
     show jolteon tpose with dissolve
     j "Oi! Stop awakening Flareon without my permission!"
 
-    $ presents = 2
+    $ persistent.presents = 2
     jump game_over
 
 
@@ -35,7 +35,7 @@ label presents2:
     show flareon surprised
     f "Wait, I didn't even call you yet??"
 
-    $ presents = 3
+    $ persistent.presents = 3
     jump game_over
 
 
@@ -69,5 +69,7 @@ label presents3:
     f "If you’re gonna break into my house and kidnap me on a date, you can at least buy me dinner right?"
     show flareon happy
     f "C'mon, lets go right now! I want ramen!"
+
+    $ persistent.ending_1_reached = True
     call screen ending(1)
     

@@ -8,8 +8,6 @@
 #
 
 label event2_start:
-    $ persistent.event2_reached = True
-
     menu:
         "So, how about that date?":
             pass
@@ -43,15 +41,6 @@ label event2_start:
             jump event2_present
 
 
-label event2_restart:
-    scene bg
-    show flareon happy
-
-    play music "audio/music/dating-start.mp3"
-
-    jump event2_start
-
-
 label event2_drunk:
     show flareon neutral
     f "Drunk…? {w=0.5}You want to go get a drink or something?"
@@ -80,8 +69,6 @@ label event2_drunk:
                         "No prob bro. Mind if I date your lil bro?":
                             pass
                     j "Haha, no I'm still gonna arrest you for breaking and entering."
-
-                    $ persistent.event2_game_overs[0] = True
                     jump game_over
 
                 "Standard Tech":
@@ -115,8 +102,6 @@ label event2_drunk:
             show flareon neutral
             f "What? I'm not a kiddo!!"
             j "Ehh."
-
-            $ persistent.event2_game_overs[1] = True
             jump game_over
 
         "Let's go to starbucks":
@@ -139,13 +124,9 @@ label event2_drunk:
             
             scene black with None
             u "Uh oh, you just broke the space-time continuum!{fast}"
-            #show umbreon head:
-            #    anchor (0.6, 0.72) alpha 0.25 xpos 0.5 ypos 0.5
             u "To preserve normality, I'm gonna delete you now.{fast}"
             u "Bye bye!{fast}"
             window auto
-
-            $ persistent.ending_0_reached = True
             call screen ending(0)
 
 
@@ -182,8 +163,6 @@ label event2_hobbies:
                     show flareon neutral
                     f "Anyways."
                     show jolteon tpose with dissolve
-
-                    $ persistent.event2_game_overs[2] = True
                     jump game_over
 
                 "Flareon the Fluff Ball?":
@@ -196,8 +175,6 @@ label event2_hobbies:
                     show flareon neutral
                     f "Anyways."
                     show jolteon tpose with dissolve
-
-                    $ persistent.event2_game_overs[3] = True
                     jump game_over
 
         "Oh... I like to play on my GamePoke instead.":
@@ -231,9 +208,7 @@ label event2_hobbies:
             f "Mm. Why are you here again?"
             show flareon neutral
             f "Sorry, I need to get to my job at the guild. So bye."
-
-            $ persistent.event2_game_overs[4] = True
-            call game_over(False) from _call_game_over_1
+            call game_over(False)
 
 
 label event2_present:
@@ -262,7 +237,5 @@ label event2_present:
     show jolteon tpose with dissolve
     j "You got a lot of nerve making Flareon cry while I’m around."
 
-    if(persistent.presents == 0):
-        $ persistent.presents = 1
-    $ persistent.event2_game_overs[5] = True
+    $ presents = 1
     jump game_over

@@ -22,6 +22,7 @@ label start:
         xalign 0.5 yalign 0.5
         easein 0.1 ypos 0.35
         easeout 0.1 ypos 0.5
+    
     pause 0.75
     f "KYA!!"
     menu:

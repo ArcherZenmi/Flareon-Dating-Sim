@@ -68,4 +68,6 @@ label finale:
     j "Yeah... I'll be keeping a real close eye on {i}you{/i}."
     show flareon happy
     f "Well let's go then. Now!"
+
+    $ persistent.ending_3_reached = True
     call screen ending(3)

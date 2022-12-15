@@ -8,9 +8,7 @@
 #
 
 label event3_start:
-    $ persistent.event3_reached = True
-
-    call fill_affection_meter from _call_fill_affection_meter
+    call fill_affection_meter
     show flareon flustered
     f_silent "..."
     f "You know, I'm starting to feel..."
@@ -27,12 +25,6 @@ label event3_start:
     show flareon neutral with vpunch
 
     f "Still unsatisfied?"
-
-    jump quiz_retry
-
-label event3_restart:
-    jump quiz_retry
-    
 
 label quiz_retry:
     scene bg
@@ -61,16 +53,12 @@ label hangout:
     f "I’m really good at GamePoke battles though, so I won’t go easy!"
     show flareon happy
     f "Let's play!"
-
-    $ persistent.ending_2_reached = True
     call screen ending(2)
 
 
 label quiz_wrong:
     show jolteon tpose with dissolve
     f "Nope."
-
-    $ persistent.event3_game_overs[0] = True
     jump game_over
 
 
@@ -78,8 +66,6 @@ label quiz_wrong2:
     show flareon sad with None
     show jolteon tpose with dissolve
     f "oh... nope."
-
-    $ persistent.event3_game_overs[1] = True
     jump game_over
 
 

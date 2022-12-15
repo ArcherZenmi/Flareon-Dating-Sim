@@ -47,8 +47,29 @@ image jolteon normal:
     "Jolteon Normal.png"
     asset_scale
 
+# Umbreon
+image umbreon head:
+    "Umbreon Head.png"
+    asset_scale
+
+image umbreon button idle:
+    "umbreon head"
+    zoom 0.2
+
+image umbreon button hover:
+    "umbreon head"
+    zoom 0.2
+    matrixcolor TintMatrix("cc0066")
+
+image umbreon button click:
+    "umbreon head"
+    zoom 0.2
+    matrixcolor TintMatrix("ffffff")
+
+
 # Solid Colors
 image black = Solid("#000000")
+image red = Solid("#ff0000")
 
 # Backgrounds
 image bg:
@@ -62,4 +83,21 @@ image affection meter empty:
 
 image affection meter full:
     "Affection Meter Full.png"
+    asset_scale
+
+# Story chart
+image story chart bg:
+    "Story Chart Background.png"
+    asset_scale
+
+image heart icon 1:
+    "Heart Icon 1.png"
+    asset_scale
+
+image heart icon 2:
+    "Heart Icon 2.png"
+    asset_scale
+
+image heart icon 3:
+    "Heart Icon 3.png"
     asset_scale
