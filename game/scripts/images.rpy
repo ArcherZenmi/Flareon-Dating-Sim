@@ -15,41 +15,38 @@ transform asset_scale:
 
 # Flareon's Expressions
 image flareon normal:
-    "Flareon Normal.png"
+    "Characters/Flareon/Flareon Normal.png"
     asset_scale
 image flareon neutral:
-    "Flareon Neutral.png"
+    "Characters/Flareon/Flareon Neutral.png"
     asset_scale
 image flareon happy:
-    "Flareon Happy.png"
+    "Characters/Flareon/Flareon Happy.png"
     asset_scale
 image flareon sad:
-    "Flareon Sad.png"
+    "Characters/Flareon/Flareon Sad.png"
     asset_scale
 image flareon angry:
-    "Flareon Angry.png"
+    "Characters/Flareon/Flareon Angry.png"
     asset_scale
 image flareon scared:
-    "Flareon Scared.png"
+    "Characters/Flareon/Flareon Scared.png"
     asset_scale
 image flareon surprised:
-    "Flareon Surprised.png"
+    "Characters/Flareon/Flareon Surprised.png"
     asset_scale
 image flareon flustered:
-    "Flareon Flustered.png"
+    "Characters/Flareon/Flareon Flustered.png"
     asset_scale
 
 # Jolteon's Expressions
 image jolteon tpose:
-    "Jolteon Tpose.png"
-    asset_scale
-image jolteon normal:
-    "Jolteon Normal.png"
+    "Characters/Jolteon/Jolteon Tpose.png"
     asset_scale
 
 # Umbreon
 image umbreon head:
-    "Umbreon Head.png"
+    "Characters/Umbreon/Umbreon Head.png"
     asset_scale
 
 image umbreon button idle:
@@ -73,31 +70,72 @@ image red = Solid("#ff0000")
 
 # Backgrounds
 image bg:
-    "Background.png"
+    "Backgrounds/Background.png"
     asset_scale
 
 # Affection Meter
 image affection meter empty:
-    "Affection Meter Empty.png"
+    "Affection Meter/Affection Meter Empty.png"
     asset_scale
 
 image affection meter full:
-    "Affection Meter Full.png"
+    "Affection Meter/Affection Meter Full.png"
     asset_scale
 
 # Story chart
 image story chart bg:
-    "Story Chart Background.png"
+    "Story Chart/Story Chart Background.png"
     asset_scale
 
 image heart icon 1:
-    "Heart Icon 1.png"
+    "Story Chart/Heart Icon 1.png"
     asset_scale
 
 image heart icon 2:
-    "Heart Icon 2.png"
+    "Story Chart/Heart Icon 2.png"
     asset_scale
 
 image heart icon 3:
-    "Heart Icon 3.png"
+    "Story Chart/Heart Icon 3.png"
     asset_scale
+
+image heart icon empty:
+    "Story Chart/Heart Icon Empty.png"
+    asset_scale
+
+image event locked:
+    "Story Chart/Event Locked.png"
+    asset_scale
+
+image retry button idle:
+    "Story Chart/Retry Button Idle.png"
+    asset_scale
+
+image retry button hover:
+    "Story Chart/Retry Button Hover.png"
+    asset_scale
+
+image restart button idle:
+    "Story Chart/Restart Button Idle.png"
+    asset_scale
+
+image restart button hover:
+    "Story Chart/Restart Button Hover.png"
+    asset_scale
+
+# Images supporting 9slice
+image 9Slice blue:
+    "9Slice/Blue.png"
+    zoom 0.33
+
+image 9Slice blue dark:
+    "9Slice/Blue Dark.png"
+    zoom 0.33
+
+image 9Slice orange:
+    "9Slice/Orange.png"
+    zoom 0.33
+    
+image 9Slice orange light:
+    "9Slice/Orange Light.png"
+    zoom 0.33
