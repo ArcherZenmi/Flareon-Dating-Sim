@@ -120,155 +120,155 @@ translate japanese strings:
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Monday"
-    new "{#weekday}Monday"
+    new "{#weekday}月曜日"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Tuesday"
-    new "{#weekday}Tuesday"
+    new "{#weekday}火曜日"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Wednesday"
-    new "{#weekday}Wednesday"
+    new "{#weekday}水曜日"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Thursday"
-    new "{#weekday}Thursday"
+    new "{#weekday}木曜日"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Friday"
-    new "{#weekday}Friday"
+    new "{#weekday}金曜日"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Saturday"
-    new "{#weekday}Saturday"
+    new "{#weekday}土曜日"
 
     # renpy/common/00action_file.rpy:26
     old "{#weekday}Sunday"
-    new "{#weekday}Sunday"
+    new "{#weekday}日曜日"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Mon"
-    new "{#weekday_short}Mon"
+    new "{#weekday_short}月"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Tue"
-    new "{#weekday_short}Tue"
+    new "{#weekday_short}火"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Wed"
-    new "{#weekday_short}Wed"
+    new "{#weekday_short}水"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Thu"
-    new "{#weekday_short}Thu"
+    new "{#weekday_short}木"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Fri"
-    new "{#weekday_short}Fri"
+    new "{#weekday_short}金"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Sat"
-    new "{#weekday_short}Sat"
+    new "{#weekday_short}土"
 
     # renpy/common/00action_file.rpy:37
     old "{#weekday_short}Sun"
-    new "{#weekday_short}Sun"
+    new "{#weekday_short}日"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}January"
-    new "{#month}January"
+    new "{#month}一月"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}February"
-    new "{#month}February"
+    new "{#month}二月"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}March"
-    new "{#month}March"
+    new "{#month}三月"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}April"
-    new "{#month}April"
+    new "{#month}四月"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}May"
-    new "{#month}May"
+    new "{#month}五月"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}June"
-    new "{#month}June"
+    new "{#month}六月"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}July"
-    new "{#month}July"
+    new "{#month}七月"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}August"
-    new "{#month}August"
+    new "{#month}八月"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}September"
-    new "{#month}September"
+    new "{#month}九月"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}October"
-    new "{#month}October"
+    new "{#month}十月"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}November"
-    new "{#month}November"
+    new "{#month}十一月"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}December"
-    new "{#month}December"
+    new "{#month}十二月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Jan"
-    new "{#month_short}Jan"
+    new "{#month_short}１月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Feb"
-    new "{#month_short}Feb"
+    new "{#month_short}２月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Mar"
-    new "{#month_short}Mar"
+    new "{#month_short}３月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Apr"
-    new "{#month_short}Apr"
+    new "{#month_short}４月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}May"
-    new "{#month_short}May"
+    new "{#month_short}５月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Jun"
-    new "{#month_short}Jun"
+    new "{#month_short}６月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Jul"
-    new "{#month_short}Jul"
+    new "{#month_short}７月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Aug"
-    new "{#month_short}Aug"
+    new "{#month_short}８月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Sep"
-    new "{#month_short}Sep"
+    new "{#month_short}９月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Oct"
-    new "{#month_short}Oct"
+    new "{#month_short}１０月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Nov"
-    new "{#month_short}Nov"
+    new "{#month_short}１１月"
 
     # renpy/common/00action_file.rpy:63
     old "{#month_short}Dec"
-    new "{#month_short}Dec"
+    new "{#month_short}１２月"
 
     # renpy/common/00action_file.rpy:250
     old "%b %d, %H:%M"
@@ -276,59 +276,59 @@ translate japanese strings:
 
     # renpy/common/00action_file.rpy:364
     old "Save slot %s: [text]"
-    new "Save slot %s: [text]"
+    new "セーブ slot %s: [text]"
 
     # renpy/common/00action_file.rpy:445
     old "Load slot %s: [text]"
-    new "Load slot %s: [text]"
+    new "ロード slot %s: [text]"
 
     # renpy/common/00action_file.rpy:498
     old "Delete slot [text]"
-    new "Delete slot [text]"
+    new "消す slot [text]"
 
     # renpy/common/00action_file.rpy:577
     old "File page auto"
-    new "File page auto"
+    new "ファイル　ページ　オート"
 
     # renpy/common/00action_file.rpy:579
     old "File page quick"
-    new "File page quick"
+    new "ファイル　ページ　クイック"
 
     # renpy/common/00action_file.rpy:581
     old "File page [text]"
-    new "File page [text]"
+    new "ファイル　ページ [text]"
 
     # renpy/common/00action_file.rpy:780
     old "Next file page."
-    new "Next file page."
+    new "次のページ。"
 
     # renpy/common/00action_file.rpy:852
     old "Previous file page."
-    new "Previous file page."
+    new "前のページ。"
 
     # renpy/common/00action_file.rpy:913
     old "Quick save complete."
-    new "Quick save complete."
+    new "クイックセーブ完了。"
 
     # renpy/common/00action_file.rpy:931
     old "Quick save."
-    new "Quick save."
+    new "クイックセーブ。"
 
     # renpy/common/00action_file.rpy:950
     old "Quick load."
-    new "Quick load."
+    new "クイックロード。"
 
     # renpy/common/00action_other.rpy:381
     old "Language [text]"
-    new "Language [text]"
+    new "言語：[text]"
 
     # renpy/common/00action_other.rpy:703
     old "Open [text] directory."
-    new "Open [text] directory."
+    new "[text]ディレクトリーを開ける。"
 
     # renpy/common/00director.rpy:708
     old "The interactive director is not enabled here."
-    new "The interactive director is not enabled here."
+    new "「interactive director」は使用されていません。"
 
     # renpy/common/00director.rpy:1481
     old "⬆"
@@ -340,131 +340,131 @@ translate japanese strings:
 
     # renpy/common/00director.rpy:1551
     old "Done"
-    new "Done"
+    new "完"
 
     # renpy/common/00director.rpy:1561
     old "(statement)"
-    new "(statement)"
+    new "(文)"
 
     # renpy/common/00director.rpy:1562
     old "(tag)"
-    new "(tag)"
+    new "(タグ)"
 
     # renpy/common/00director.rpy:1563
     old "(attributes)"
-    new "(attributes)"
+    new "(属性)"
 
     # renpy/common/00director.rpy:1564
     old "(transform)"
-    new "(transform)"
+    new "(変化)"
 
     # renpy/common/00director.rpy:1589
     old "(transition)"
-    new "(transition)"
+    new "(変換)"
 
     # renpy/common/00director.rpy:1601
     old "(channel)"
-    new "(channel)"
+    new "(チャンネル)"
 
     # renpy/common/00director.rpy:1602
     old "(filename)"
-    new "(filename)"
+    new "(ファイル名)"
 
     # renpy/common/00director.rpy:1631
     old "Change"
-    new "Change"
+    new "変える"
 
     # renpy/common/00director.rpy:1633
     old "Add"
-    new "Add"
+    new "足す"
 
     # renpy/common/00director.rpy:1636
     old "Cancel"
-    new "Cancel"
+    new "やめる"
 
     # renpy/common/00director.rpy:1639
     old "Remove"
-    new "Remove"
+    new "消す"
 
     # renpy/common/00director.rpy:1674
     old "Statement:"
-    new "Statement:"
+    new "文：:"
 
     # renpy/common/00director.rpy:1695
     old "Tag:"
-    new "Tag:"
+    new "タグ：:"
 
     # renpy/common/00director.rpy:1711
     old "Attributes:"
-    new "Attributes:"
+    new "属性：:"
 
     # renpy/common/00director.rpy:1729
     old "Transforms:"
-    new "Transforms:"
+    new "変化：:"
 
     # renpy/common/00director.rpy:1748
     old "Behind:"
-    new "Behind:"
+    new "後ろ：:"
 
     # renpy/common/00director.rpy:1767
     old "Transition:"
-    new "Transition:"
+    new "変換：:"
 
     # renpy/common/00director.rpy:1785
     old "Channel:"
-    new "Channel:"
+    new "チャンネル：:"
 
     # renpy/common/00director.rpy:1803
     old "Audio Filename:"
-    new "Audio Filename:"
+    new "オーディオ名：:"
 
     # renpy/common/00gui.rpy:435
     old "Are you sure?"
-    new "Are you sure?"
+    new "本当にいいですか？"
 
     # renpy/common/00gui.rpy:436
     old "Are you sure you want to delete this save?"
-    new "Are you sure you want to delete this save?"
+    new "このセーブを消していいですか？"
 
     # renpy/common/00gui.rpy:437
     old "Are you sure you want to overwrite your save?"
-    new "Are you sure you want to overwrite your save?"
+    new "このセーブを上書きしていいですか？"
 
     # renpy/common/00gui.rpy:438
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+    new "ロードするとセーブされていない情報は消えます、\nよろしいですか？"
 
     # renpy/common/00gui.rpy:439
     old "Are you sure you want to quit?"
-    new "Are you sure you want to quit?"
+    new "本当にやめますか？"
 
     # renpy/common/00gui.rpy:440
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+    new "メインメニューに戻ると\nセーブされていない情報は消えます、よろしいですか？"
 
     # renpy/common/00gui.rpy:441
     old "Are you sure you want to end the replay?"
-    new "Are you sure you want to end the replay?"
+    new "リプレーを止めますか？"
 
     # renpy/common/00gui.rpy:442
     old "Are you sure you want to begin skipping?"
-    new "Are you sure you want to begin skipping?"
+    new "早送りしますか？"
 
     # renpy/common/00gui.rpy:443
     old "Are you sure you want to skip to the next choice?"
-    new "Are you sure you want to skip to the next choice?"
+    new "次の選択まで早送りしますか？"
 
     # renpy/common/00gui.rpy:444
     old "Are you sure you want to skip unseen dialogue to the next choice?"
-    new "Are you sure you want to skip unseen dialogue to the next choice?"
+    new "未読文章を見ずに、次の選択まで早送りしますか？"
 
     # renpy/common/00keymap.rpy:310
     old "Failed to save screenshot as %s."
-    new "Failed to save screenshot as %s."
+    new "スクリーンショットの作成に失敗しました。ファイル名：%s"
 
     # renpy/common/00keymap.rpy:322
     old "Saved screenshot as %s."
-    new "Saved screenshot as %s."
+    new "スクレーンショットの作成完了。ファイル名：%s"
 
     # renpy/common/00library.rpy:230
     old "Skip Mode"
