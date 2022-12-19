@@ -24,7 +24,7 @@ screen story_chart():
                 color blue_dark
                 anchor (.5, .5)
                 xpos int(540 * asset_scale) ypos int(908 * asset_scale)
-                size int(100 * asset_scale)
+                size int(76 * asset_scale)
         imagebutton:
             auto "retry button %s"
             anchor (.5, .5)
@@ -47,7 +47,7 @@ screen story_chart():
                 color blue_dark
                 anchor (.5, .5)
                 xpos int(1440 * asset_scale) ypos int(908 * asset_scale)
-                size int(100 * asset_scale)
+                size int(76 * asset_scale)
         imagebutton:
             auto "retry button %s"
             anchor (.5, .5)
@@ -69,7 +69,7 @@ screen story_chart():
                 color blue_dark
                 anchor (.5, .5)
                 xpos int(2340 * asset_scale) ypos int(908 * asset_scale)
-                size int(100 * asset_scale)
+                size int(76 * asset_scale)
         imagebutton:
             auto "retry button %s"
             anchor (.5, .5)
@@ -83,7 +83,7 @@ screen story_chart():
     imagebutton:
         auto "restart button %s"
         anchor (.5, .5)
-        xpos int(700 * asset_scale) ypos int(1485 * asset_scale)
+        xpos int(720 * asset_scale) ypos int(1485 * asset_scale)
         action [Hide(), Jump("start")]
 
     # Finished Endings

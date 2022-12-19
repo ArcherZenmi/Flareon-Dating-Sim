@@ -16,8 +16,8 @@ init python:
             renpy.sound.stop(channel="voice")
 
 # Define characters
-define f = Character("Flareon", color="#ee7b46", callback=voiceCallback, cb_name="Flareon")
-define j = Character("Jolteon", color="#fccc4a", callback=voiceCallback, cb_name="Jolteon")
+define f = Character(_("Flareon"), color="#ee7b46", callback=voiceCallback, cb_name="Flareon")
+define j = Character(_("Jolteon"), color="#fccc4a", callback=voiceCallback, cb_name="Jolteon")
 define u = Character("", what_color="#ffffff", window_background="gui/textbox renpy.png")
 
 define f_silent = Character("Flareon", color="#ee7b46", cb_name="Flareon")

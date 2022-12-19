@@ -1,328 +1,370 @@
-﻿# TODO: Translation updated at 2022-12-15 00:58
+﻿# TODO: Translation updated at 2019-05-14 17:19
 
 translate japanese strings:
 
-    # game/screens.rpy:252
+    # screens.rpy:257
     old "Back"
-    new "Back"
+    new "戻る"
 
-    # game/screens.rpy:253
+    # screens.rpy:258
     old "History"
-    new "History"
+    new "列記"
 
-    # game/screens.rpy:254
+    # screens.rpy:259
     old "Skip"
-    new "Skip"
+    new "早送り"
 
-    # game/screens.rpy:255
+    # screens.rpy:260
     old "Auto"
-    new "Auto"
+    new "自動"
 
-    # game/screens.rpy:256
+    # screens.rpy:261
     old "Save"
-    new "Save"
+    new "セーブ"
 
-    # game/screens.rpy:257
+    # screens.rpy:262
     old "Q.Save"
-    new "Q.Save"
+    new "クイックセーブ"
 
-    # game/screens.rpy:258
+    # screens.rpy:263
     old "Q.Load"
-    new "Q.Load"
+    new "クイックロード"
 
-    # game/screens.rpy:259
-    old "Prefs"
-    new "Prefs"
+    # screens.rpy:264
+    old "Settings"
+    new "設定"
 
-    # game/screens.rpy:300
-    old "Start"
-    new "Start"
+    # screens.rpy:270
+    old "Shopping List"
+    new "お使いメモ"
 
-    # game/screens.rpy:308
-    old "Load"
-    new "Load"
-
-    # game/screens.rpy:310
-    old "Preferences"
-    new "Preferences"
-
-    # game/screens.rpy:314
-    old "End Replay"
-    new "End Replay"
-
-    # game/screens.rpy:318
-    old "Main Menu"
-    new "Main Menu"
-
-    # game/screens.rpy:320
+    # screens.rpy:317
     old "About"
-    new "About"
+    new "ものがたり"
 
-    # game/screens.rpy:325
+    # screens.rpy:323
+    old "Start"
+    new "はじめる"
+
+    # screens.rpy:331
+    old "Load"
+    new "ロード"
+
+    # screens.rpy:335
+    old "Main Menu"
+    new "メインメニュー"
+
+    # screens.rpy:339
+    old "Milestones"
+    new "エンディング"
+
+    # screens.rpy:351
+    old "End Replay"
+    new "リプレーを止める"
+
+    # screens.rpy:358
     old "Help"
-    new "Help"
+    new "キーボード設定"
 
-    # game/screens.rpy:331
+    # screens.rpy:361
     old "Quit"
-    new "Quit"
+    new "やめる"
 
-    # game/screens.rpy:472
+    # screens.rpy:569
     old "Return"
-    new "Return"
+    new "戻る"
 
-    # game/screens.rpy:556
+    # screens.rpy:653
     old "Version [config.version!t]\n"
-    new "Version [config.version!t]\n"
+    new "バージョン：[config.version!t]\n"
 
-    # game/screens.rpy:562
-    old "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
-    new "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
-
-    # game/screens.rpy:598
+    # screens.rpy:779
     old "Page {}"
-    new "Page {}"
+    new "ページ {}"
 
-    # game/screens.rpy:598
+    # screens.rpy:779
     old "Automatic saves"
-    new "Automatic saves"
+    new "オートセーブ"
 
-    # game/screens.rpy:598
+    # screens.rpy:779
     old "Quick saves"
-    new "Quick saves"
+    new "クイックセーブ"
 
-    # game/screens.rpy:640
+    # screens.rpy:821
     old "{#file_time}%A, %B %d %Y, %H:%M"
     new "{#file_time}%A, %B %d %Y, %H:%M"
 
-    # game/screens.rpy:640
+    # screens.rpy:821
     old "empty slot"
-    new "empty slot"
+    new "空きファイル"
 
-    # game/screens.rpy:657
+    # screens.rpy:838
     old "<"
     new "<"
 
-    # game/screens.rpy:660
+    # screens.rpy:841
     old "{#auto_page}A"
     new "{#auto_page}A"
 
-    # game/screens.rpy:663
+    # screens.rpy:844
     old "{#quick_page}Q"
     new "{#quick_page}Q"
 
-    # game/screens.rpy:669
+    # screens.rpy:850
     old ">"
     new ">"
 
-    # game/screens.rpy:726
+    # screens.rpy:895
+    old "Milestones Menu"
+    new "エンディングメニュー"
+
+    # screens.rpy:1060
+    old "Preferences"
+    new "設定"
+
+    # screens.rpy:1070
     old "Display"
-    new "Display"
+    new "表示"
 
-    # game/screens.rpy:727
+    # screens.rpy:1071
     old "Window"
-    new "Window"
+    new "ウィンドウ表示"
 
-    # game/screens.rpy:728
+    # screens.rpy:1072
     old "Fullscreen"
-    new "Fullscreen"
+    new "フルスクリーン"
 
-    # game/screens.rpy:733
+    # screens.rpy:1076
+    old "Rollback Side"
+    new "ロールバック方面"
+
+    # screens.rpy:1077
+    old "Disable"
+    new "オフ"
+
+    # screens.rpy:1078
+    old "Left"
+    new "左"
+
+    # screens.rpy:1079
+    old "Right"
+    new "右"
+
+    # screens.rpy:1084
+    old "Name Protagonist"
+    new "主人公の名前"
+
+    # screens.rpy:1085
+    old "Enabled"
+    new "オン"
+
+    # screens.rpy:1086
+    old "Disabled"
+    new "オフ"
+
+    # screens.rpy:1092
     old "Unseen Text"
-    new "Unseen Text"
+    new "未読文"
 
-    # game/screens.rpy:734
+    # screens.rpy:1093
     old "After Choices"
-    new "After Choices"
+    new "選択後の文"
 
-    # game/screens.rpy:735
+    # screens.rpy:1094
     old "Transitions"
-    new "Transitions"
+    new "変換"
 
-    # game/screens.rpy:748
-    old "Text Speed"
-    new "Text Speed"
+    # screens.rpy:1100
+    old "Language"
+    new "言語"
 
-    # game/screens.rpy:752
-    old "Auto-Forward Time"
-    new "Auto-Forward Time"
-
-    # game/screens.rpy:759
+    # screens.rpy:1123
     old "Music Volume"
-    new "Music Volume"
+    new "音楽"
 
-    # game/screens.rpy:766
+    # screens.rpy:1130
     old "Sound Volume"
-    new "Sound Volume"
+    new "効果音"
 
-    # game/screens.rpy:772
+    # screens.rpy:1136
     old "Test"
-    new "Test"
+    new "テスト"
 
-    # game/screens.rpy:776
+    # screens.rpy:1140
     old "Voice Volume"
-    new "Voice Volume"
+    new "音声"
 
-    # game/screens.rpy:787
+    # screens.rpy:1151
     old "Mute All"
-    new "Mute All"
+    new "消音"
 
-    # game/screens.rpy:906
+    # screens.rpy:1283
     old "The dialogue history is empty."
-    new "The dialogue history is empty."
+    new "文歴は空っぽみたいだ..."
 
-    # game/screens.rpy:974
+    # screens.rpy:1353
     old "Keyboard"
-    new "Keyboard"
+    new "キーボード"
 
-    # game/screens.rpy:975
+    # screens.rpy:1354
     old "Mouse"
-    new "Mouse"
+    new "マウス"
 
-    # game/screens.rpy:978
+    # screens.rpy:1357
     old "Gamepad"
-    new "Gamepad"
+    new "ゲームパッド"
 
-    # game/screens.rpy:991
+    # screens.rpy:1370
     old "Enter"
-    new "Enter"
+    new "エンターキー"
 
-    # game/screens.rpy:992
+    # screens.rpy:1371
     old "Advances dialogue and activates the interface."
-    new "Advances dialogue and activates the interface."
+    new "次の画面に映る。クリックにも代用できる。"
 
-    # game/screens.rpy:995
+    # screens.rpy:1374
     old "Space"
-    new "Space"
+    new "スペースキー"
 
-    # game/screens.rpy:996
+    # screens.rpy:1375
     old "Advances dialogue without selecting choices."
-    new "Advances dialogue without selecting choices."
+    new "次の画面に移る。選択には使えない。"
 
-    # game/screens.rpy:999
+    # screens.rpy:1378
     old "Arrow Keys"
-    new "Arrow Keys"
+    new "方向キー"
 
-    # game/screens.rpy:1000
+    # screens.rpy:1379
     old "Navigate the interface."
-    new "Navigate the interface."
+    new "カーソルを動かす。"
 
-    # game/screens.rpy:1003
+    # screens.rpy:1382
     old "Escape"
-    new "Escape"
+    new "Escキー"
 
-    # game/screens.rpy:1004
+    # screens.rpy:1383
     old "Accesses the game menu."
-    new "Accesses the game menu."
+    new "ゲームメニューに戻る。"
 
-    # game/screens.rpy:1007
+    # screens.rpy:1386
     old "Ctrl"
-    new "Ctrl"
+    new "Ctrlキー"
 
-    # game/screens.rpy:1008
+    # screens.rpy:1387
     old "Skips dialogue while held down."
-    new "Skips dialogue while held down."
+    new "押したままにすると早送りする。"
 
-    # game/screens.rpy:1011
+    # screens.rpy:1390
     old "Tab"
-    new "Tab"
+    new "Tabキー"
 
-    # game/screens.rpy:1012
+    # screens.rpy:1391
     old "Toggles dialogue skipping."
-    new "Toggles dialogue skipping."
+    new "早送りボタン"
 
-    # game/screens.rpy:1015
+    # screens.rpy:1394
     old "Page Up"
-    new "Page Up"
+    new "上"
 
-    # game/screens.rpy:1016
+    # screens.rpy:1395
     old "Rolls back to earlier dialogue."
-    new "Rolls back to earlier dialogue."
+    new "前の文に前回しする。"
 
-    # game/screens.rpy:1019
+    # screens.rpy:1398
     old "Page Down"
-    new "Page Down"
+    new "下"
 
-    # game/screens.rpy:1020
+    # screens.rpy:1399
     old "Rolls forward to later dialogue."
-    new "Rolls forward to later dialogue."
+    new "後の文に後回しする"
 
-    # game/screens.rpy:1024
+    # screens.rpy:1403
     old "Hides the user interface."
-    new "Hides the user interface."
+    new "下画面を隠す。"
 
-    # game/screens.rpy:1028
+    # screens.rpy:1407
     old "Takes a screenshot."
-    new "Takes a screenshot."
+    new "スクリーンショットを撮る。"
 
-    # game/screens.rpy:1032
+    # screens.rpy:1411
     old "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
-    new "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
+    new "{a=https://www.renpy.org/l/voicing}オート音声{/a}ボタン。"
+
+    # screens.rpy:1417
+    old "Left Click"
+    new "左クリック"
+
+    # screens.rpy:1421
+    old "Middle Click"
+    new "中クリック"
+
+    # screens.rpy:1425
+    old "Right Click"
+    new "右クリック"
+
+    # screens.rpy:1429
+    old "Mouse Wheel Up\nClick Rollback Side"
+    new "上スクロール\nロールバック方面"
+
+    # screens.rpy:1433
+    old "Mouse Wheel Down"
+    new "下スクロール"
+
+    # screens.rpy:1440
+    old "Right Trigger\nA/Bottom Button"
+    new "右トリガー\nＡボタン・下のボタン"
+
+    # screens.rpy:1444
+    old "Left Trigger\nLeft Shoulder"
+    new "左トリガー\n左ショルダー"
+
+    # screens.rpy:1448
+    old "Right Shoulder"
+    new "右ショルダー"
+
+    # screens.rpy:1453
+    old "D-Pad, Sticks"
+    new "十字キー・アナログスティック"
+
+    # screens.rpy:1457
+    old "Start, Guide"
+    new "スタートボタン・ガイド"
+
+    # screens.rpy:1461
+    old "Y/Top Button"
+    new "Ｙボタン・上のボタン"
+
+    # screens.rpy:1464
+    old "Calibrate"
+    new "調整"
+
+    # screens.rpy:1529
+    old "Yes"
+    new "はい"
+
+    # screens.rpy:1530
+    old "No"
+    new "いいえ"
+
+    # screens.rpy:1576
+    old "Skipping"
+    new "早送り中"
+
+    # screens.rpy:1797
+    old "Menu"
+    new "メニュー"# TODO: Translation updated at 2022-12-16 01:45
+
+translate japanese strings:
+
+    # game/screens.rpy:259
+    old "Prefs"
+    new "設定"
+
+    # game/screens.rpy:562
+    old "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+    new "{a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]で作られています。"
 
     # game/screens.rpy:1036
     old "Opens the accessibility menu."
     new "Opens the accessibility menu."
-
-    # game/screens.rpy:1042
-    old "Left Click"
-    new "Left Click"
-
-    # game/screens.rpy:1046
-    old "Middle Click"
-    new "Middle Click"
-
-    # game/screens.rpy:1050
-    old "Right Click"
-    new "Right Click"
-
-    # game/screens.rpy:1054
-    old "Mouse Wheel Up\nClick Rollback Side"
-    new "Mouse Wheel Up\nClick Rollback Side"
-
-    # game/screens.rpy:1058
-    old "Mouse Wheel Down"
-    new "Mouse Wheel Down"
-
-    # game/screens.rpy:1065
-    old "Right Trigger\nA/Bottom Button"
-    new "Right Trigger\nA/Bottom Button"
-
-    # game/screens.rpy:1069
-    old "Left Trigger\nLeft Shoulder"
-    new "Left Trigger\nLeft Shoulder"
-
-    # game/screens.rpy:1073
-    old "Right Shoulder"
-    new "Right Shoulder"
-
-    # game/screens.rpy:1078
-    old "D-Pad, Sticks"
-    new "D-Pad, Sticks"
-
-    # game/screens.rpy:1082
-    old "Start, Guide"
-    new "Start, Guide"
-
-    # game/screens.rpy:1086
-    old "Y/Top Button"
-    new "Y/Top Button"
-
-    # game/screens.rpy:1089
-    old "Calibrate"
-    new "Calibrate"
-
-    # game/screens.rpy:1154
-    old "Yes"
-    new "Yes"
-
-    # game/screens.rpy:1155
-    old "No"
-    new "No"
-
-    # game/screens.rpy:1201
-    old "Skipping"
-    new "Skipping"
-
-    # game/screens.rpy:1424
-    old "Menu"
-    new "Menu"
 

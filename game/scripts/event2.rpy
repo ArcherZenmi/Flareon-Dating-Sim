@@ -98,7 +98,7 @@ label event2_drunk:
                     f "Kick out the wild Pokémon so they can… starve in the wild?"
                     show flareon neutral
                     f "I... guess the wild Pokémon are just trying to feed themselves and their pack. They don’t know how to grow their own food. I think?"
-                    f "It’s not like the guild tries to help them. That’s what Glaceon always says."
+                    f "It’s not like the guild tries to help or teach them. That’s what Glaceon always says."
                     show flareon sad
                     f "...sorry. I get these weird thoughts sometimes."
                     f_silent "..."

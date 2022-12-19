@@ -48,7 +48,7 @@ label presents3:
     show flareon happy
     f "I kinda feel like I already know you."
     menu:
-        "Wil you go on a date with me?":
+        "Will you go on a date with me?":
             pass
     show flareon surprised
     f_silent "..."

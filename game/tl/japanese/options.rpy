@@ -4,5 +4,5 @@ translate japanese strings:
 
     # game/options.rpy:15
     old "Flareon Dating Sim"
-    new "Flareon Dating Sim"
+    new "ブースターとデート"
 

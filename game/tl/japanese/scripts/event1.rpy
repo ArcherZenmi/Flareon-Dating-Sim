@@ -34,7 +34,7 @@ translate japanese event1_sorry_5ef03f06:
 translate japanese event1_sorry_58a0d214:
 
     # f "...wait, you just broke down my door!"
-    f "。。。というか、今僕の玄関壊したじゃん！"
+    f "。。。てか、今僕の玄関壊したじゃん！"
 
 # game/scripts/event1.rpy:60
 translate japanese event1_sorry_dc4a645e:
@@ -76,7 +76,7 @@ translate japanese event1_sorry_c5af9c1a:
 translate japanese event1_sorry_6c869afd:
 
     # j "Eh, Is it the milkman?"
-    j "えっ、牛乳屋か？"
+    j "あん、牛乳屋か？"
 
 # game/scripts/event1.rpy:82
 translate japanese event1_sorry_a603c2d9:
@@ -124,7 +124,7 @@ translate japanese event1_date_caedde11:
 translate japanese event1_date_d335f3e4:
 
     # f "You're a HUMAN??"
-    f "えっ、人間なの？？"
+    f "えっ、人間？？"
 
 # game/scripts/event1.rpy:110
 translate japanese event1_date_253ce8fd:
@@ -148,7 +148,7 @@ translate japanese event1_date_ea039296:
 translate japanese event1_date_f98477b1:
 
     # j "Human huh? Yeah right. Wrong season for trick or treating bud."
-    j "人間な？嘘つけ。ハロウィンはとっくに過ぎてるぜ、不法侵入者め。"
+    j "人間？嘘つけ。ハロウィンはとっくに過ぎてるぜ、泥棒め。"
 
 # game/scripts/event1.rpy:121
 translate japanese event1_date_0cf479a7:
@@ -166,7 +166,7 @@ translate japanese event1_date_1937bd0e:
 translate japanese event1_date_09745f36:
 
     # f "I sometimes wonder if we're living in a cartoon? hehe."
-    f "たまに漫画の世界に住んでるように思えちゃうよ、ヘヘっ。"
+    f "たまに漫画の世界に住んでるのかなって思えちゃうよ。ヘヘっ。"
 
 # game/scripts/event1.rpy:129
 translate japanese event1_date_490766c5:
@@ -256,13 +256,13 @@ translate japanese event1_babies_8bc5322e:
 translate japanese event1_babies_4e19494d:
 
     # f "...ok?"
-    f "。。。んん？"
+    f "。。。うん？"
 
 # game/scripts/event1.rpy:186
 translate japanese event1_babies_3a337b28:
 
     # f "So, how are you gonna rob my house with that avocado and tuna in your hands?"
-    f "で、その手に持ったアボカドとツナ缶でどうやって強盗する気だったの？"
+    f "で、その手に持ったアボカドとツナ缶でどうやって僕を強盗する気だったの？"
 
 # game/scripts/event1.rpy:190
 translate japanese event1_babies_fc563bb4:

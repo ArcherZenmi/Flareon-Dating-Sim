@@ -139,3 +139,18 @@ image 9Slice orange:
 image 9Slice orange light:
     "9Slice/Orange Light.png"
     zoom 0.33
+
+# Flag buttons
+image button us flag idle:
+    "Flags/US Flag.png"
+
+image button us flag hover:
+    "button us flag idle"
+    matrixcolor BrightnessMatrix(0.2)
+
+image button japanese flag idle:
+    "Flags/Japanese Flag.png"
+
+image button japanese flag hover:
+    "button japanese flag idle"
+    matrixcolor BrightnessMatrix(0.2)
