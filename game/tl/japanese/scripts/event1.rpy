@@ -172,13 +172,13 @@ translate japanese event1_date_09745f36:
 translate japanese event1_date_490766c5:
 
     # f "HAHAHAHAHAHAHAHAHAHA"
-    f "アハハハハハハハハハハハ"
+    f "{size=+10}アハハハハハハハハハハハ"
 
 # game/scripts/event1.rpy:134
 translate japanese event1_date_6f5912b0:
 
     # f "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
-    f "アハハハハハハハハハハハハハハハハハハハハハハハハハハハハハハハハハハハ"
+    f "{size=+20}アハハハハハハハハハハハハハハハハハハハハハハハハハハハハハ"
 
 # game/scripts/event1.rpy:136
 translate japanese event1_date_11a9a670:
@@ -190,13 +190,13 @@ translate japanese event1_date_11a9a670:
 translate japanese event1_date_cf7fb3af:
 
     # f "Oh, you must have had an episode and ran into the nearest house. Poor thing."
-    f "あぁ、いきなり発作が起きて近くの家に飛び込んだんだね。かわいそうに。"
+    f "あぁ、突然発作を起こして近くの家に飛び込んだんだね。かわいそうに。"
 
 # game/scripts/event1.rpy:146
 translate japanese event1_date_faa545b1:
 
     # f "Don’t worry, I’m a medical officer so I can help you!"
-    f "安心して、僕は医療者だから手当てしてあげるね！"
+    f "安心して、僕は医療者だから手当てしてあげるよ！"
 
 # game/scripts/event1.rpy:147
 translate japanese event1_date_c73d0160:
@@ -268,7 +268,7 @@ translate japanese event1_babies_3a337b28:
 translate japanese event1_babies_fc563bb4:
 
     # f "Ha! That's just what a robber would say!"
-    f "否定してるって事は、間違いなく泥棒だね！"
+    f "ハハッ！否定してるって事は、間違いなく泥棒だね！"
 
 # game/scripts/event1.rpy:192
 translate japanese event1_babies_5483c0cb:
@@ -304,7 +304,7 @@ translate japanese event1_babies_b1fcfa51:
 translate japanese event1_babies_89d1061a:
 
     # j "If being a hero really is your dream, you gotta fight for yourself. <-(Jolteon big brother mode)"
-    j "本当にヒーロー目指してんなら、自分でも戦えるようになれなきゃダメだぜ。＜ー（お兄ちゃん気取り）"
+    j "本当にヒーロー目指してんなら、自分でも戦えるようになれなきゃダメだぜ。<ー（お兄ちゃん気取り）"
 
 # game/scripts/event1.rpy:200
 translate japanese event1_babies_7418b812:
@@ -328,19 +328,19 @@ translate japanese event1_babies_9aab2f5d:
 translate japanese event1_babies_a59da9ad:
 
     # j "Huh... nice shot!"
-    j "おっ。。。行けたじゃん！"
+    j "おっ。。。ナイスショット！"
 
 # game/scripts/event1.rpy:221
 translate japanese event1_babies_b6e03050:
 
     # f "Wait..."
-    f "ちょっと待って。。。"
+    f "えっ、それって。。。"
 
 # game/scripts/event1.rpy:222
 translate japanese event1_babies_d51f7f53:
 
     # f "Wait...\n{fast}You're gonna rob AND date me??"
-    f "ちょっと待って。。。\n{fast}デートと強盗をどっちもしたいの？？"
+    f "えっ、それって。。。\n{fast}デートと強盗をどっちもしたいの？？"
 
 # game/scripts/event1.rpy:224
 translate japanese event1_babies_61990f3d:
@@ -396,7 +396,7 @@ translate japanese strings:
 
     # game/scripts/event1.rpy:84
     old "Well darn."
-    new "ミスったか。"
+    new "ミスったな。"
 
     # game/scripts/event1.rpy:97
     old "Yes."
@@ -416,11 +416,11 @@ translate japanese strings:
 
     # game/scripts/event1.rpy:105
     old "HAHAHAHAHA"
-    new "アハハハハハハ"
+    new "{size=+10}アハハハハハハ"
 
     # game/scripts/event1.rpy:130
     old "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
-    new "アハハハハハハハハハハハハハハハハハハハハハ"
+    new "{size=+20}アハハハハハハハハハハハハハハハハハハハハハ"
 
     # game/scripts/event1.rpy:149
     old "Yes please."

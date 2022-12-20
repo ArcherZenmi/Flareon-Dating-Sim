@@ -21,3 +21,10 @@ define j = Character(_("Jolteon"), color="#fccc4a", callback=voiceCallback, cb_n
 define u = Character("", what_color="#ffffff", window_background="gui/textbox renpy.png")
 
 define f_silent = Character("Flareon", color="#ee7b46", cb_name="Flareon")
+
+# Change the cps depending on the language
+translate None python:
+    preferences.text_cps = 60
+
+translate japanese python:
+    preferences.text_cps = 40

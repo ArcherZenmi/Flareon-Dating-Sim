@@ -4,7 +4,7 @@
 translate japanese presents1_b320e0f9:
 
     # f "\"Another?\" I think you have the wrong person..."
-    f "「また」？人違いだと思うけど。。。"
+    f "「また」？人違いじゃないの。。。？"
 
 # game/scripts/presents.rpy:14
 translate japanese presents1_a6e55251:
@@ -106,7 +106,7 @@ translate japanese presents3_2d70039d_1:
 translate japanese presents3_3eeb6ef4:
 
     # f "...You know what, sure!"
-    f "。。。まあ、分かった！良いよ！"
+    f "。。。分かった！良いよ！"
 
 # game/scripts/presents.rpy:58
 translate japanese presents3_a95f7614:

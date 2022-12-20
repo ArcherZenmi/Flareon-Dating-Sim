@@ -360,7 +360,7 @@ translate japanese strings:
 
     # 00gui.rpy:374
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new "ロードするとセーブされていない情報は消えます、\nよろしいですね？"
+    new "ロードするとセーブされていない情報は消えます、\nよろしいですか？"
 
     # 00gui.rpy:375
     old "Are you sure you want to quit?"
@@ -368,7 +368,7 @@ translate japanese strings:
 
     # 00gui.rpy:376
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new "メインメニューに戻ると\nセーブされていない情報は消えます、よろしいですね？"
+    new "メインメニューに戻ると\nセーブされていない情報は消えます、よろしいですか？"
 
     # 00gui.rpy:377
     old "Are you sure you want to end the replay?"

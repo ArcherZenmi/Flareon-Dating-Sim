@@ -27,7 +27,7 @@ screen game_over(punch = False):
     add "black"
 
     # Gameover title
-    text "Game Over":
+    text _("Game Over"):
         size 60
         color "#ffffff"
         xalign 0.5 yalign 0.4
@@ -37,13 +37,9 @@ screen game_over(punch = False):
         xalign 0.5 yalign 0.7
         spacing 30
 
-        textbutton "Retry":
+        textbutton _("Retry"):
             xalign 0.5
             action [Hide(), Jump("start")]
-        textbutton "Story Chart":
+        textbutton _("Story Chart"):
             xalign 0.5
             action [Hide(), Show("story_chart")]
-        if(persistent.event_3_reached):
-            textbutton "Redo Quiz":
-                xalign 0.5
-                action [Hide(), Jump("quiz_retry")]

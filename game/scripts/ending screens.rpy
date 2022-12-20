@@ -9,13 +9,13 @@
 screen ending(ending_num):
     # Decide what ending to display
     if ending_num == 1:
-        $ ending_text = "Ending 1/3: You Bought Yourself A Date!"
+        $ ending_text = _("Ending 1/3: You Bought Yourself A Date!")
     elif ending_num == 2:
-        $ ending_text = "Ending 2/3: Just Friends"
+        $ ending_text = _("Ending 2/3: Just Friends")
     elif ending_num == 3:
-        $ ending_text = "Ending 3/3: I WUV YOU!!"
+        $ ending_text = _("Ending 3/3: I WUV YOU!!")
     else:
-        $ ending_text = "Ending ?/3: Whoops, You Got Banned From Reality!"
+        $ ending_text = _("Ending ?/3: Whoops, You Got Banned From Reality!")
 
     # Black background
     add "black"
@@ -36,6 +36,6 @@ screen ending(ending_num):
             action MainMenu(False)
             auto "umbreon button %s"
     else:
-        textbutton "Main Menu":
+        textbutton _("Main Menu"):
             xalign 0.5 yalign 0.65
             action MainMenu(False)

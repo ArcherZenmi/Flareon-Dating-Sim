@@ -368,3 +368,15 @@ translate japanese strings:
     old "Opens the accessibility menu."
     new "Opens the accessibility menu."
 
+# TODO: Translation updated at 2022-12-19 20:21
+
+translate japanese strings:
+
+    # game/screens.rpy:742
+    old "English"
+    new "English"
+
+    # game/screens.rpy:743
+    old "日本語"
+    new "日本語"
+

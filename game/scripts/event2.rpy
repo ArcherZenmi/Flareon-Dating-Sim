@@ -45,7 +45,7 @@ label event2_start:
 
 label event2_restart:
     scene bg
-    show flareon happy
+    show flareon normal
 
     play music "audio/music/dating-start.mp3"
 

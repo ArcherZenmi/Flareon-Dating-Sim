@@ -196,19 +196,19 @@ translate japanese event2_drunk_cc3a06f5:
 translate japanese event2_drunk_c63a98a8:
 
     # f "Wait... What's starbucks? What am I eve-"
-    f "あれ。。。スタバって何？僕は今何を-"
+    f "あれ。。。スタバって何？僕は一体何を-"
 
 # game/scripts/event2.rpy:141
 translate japanese event2_drunk_8b467828:
 
     # u "Uh oh, you just broke the space-time continuum!{fast}"
-    u "あっ、君宇宙の法則を乱しちゃったね！{fast}"
+    u "あっ。君、宇宙の法則を乱しちゃったね！{fast}"
 
 # game/scripts/event2.rpy:144
 translate japanese event2_drunk_2b6a3f2e:
 
     # u "To preserve normality, I'm gonna delete you now.{fast}"
-    u "じゃあ時空の正常を守るため、君を削除するね。{fast}"
+    u "悪いけど、時空の正常を守るために君を削除するね。{fast}"
 
 # game/scripts/event2.rpy:145
 translate japanese event2_drunk_3d73d398:
@@ -220,7 +220,7 @@ translate japanese event2_drunk_3d73d398:
 translate japanese event2_hobbies_516b9288:
 
     # f "...I like to watch battle tournaments on my MagnaVision."
-    f "。。。僕のマグナビジョンでバトルトーナメントを見るのが好きかな。"
+    f "。。。マグナビジョンでバトルトーナメントを見るのが好きかな。"
 
 # game/scripts/event2.rpy:158
 translate japanese event2_hobbies_db4abf90:
@@ -424,7 +424,7 @@ translate japanese event2_present_6e7102d5:
 translate japanese event2_present_f12be32c:
 
     # f "It’s Vanilluxe brand chocolate! I didn’t know they sold those here!"
-    f "バニラックスチョコだ！これってここでも売ってたんだ！"
+    f "バニラックスチョコだ！これってどこを探しても売れ切れてるんだよ！"
 
 # game/scripts/event2.rpy:246
 translate japanese event2_present_ca2cb551:
@@ -442,7 +442,7 @@ translate japanese event2_present_2d70039d:
 translate japanese event2_present_3da5454e:
 
     # f "Did you just grab whatever you had at home without looking?"
-    f "もしかして何も見ないで家にあった物持って来た？"
+    f "もしかして、何も見ないで家にあった物持って来た？"
 
 # game/scripts/event2.rpy:259
 translate japanese event2_present_2d70039d_1:
@@ -470,7 +470,7 @@ translate japanese strings:
 
     # game/scripts/event2.rpy:19
     old "Don't answer yet, I need to raise your affection meter first."
-    new "まだ答えちゃダメだ。まずは高感度パラメーターを上げなければ。"
+    new "まだ答えちゃダメ。まずは高感度パラメーターを上げなければ。"
 
     # game/scripts/event2.rpy:37
     old "Lets get you drunk."
@@ -514,7 +514,7 @@ translate japanese strings:
 
     # game/scripts/event2.rpy:156
     old "I love those guild hosted tournaments!"
-    new "私もバトルトーナメント好きなんです！"
+    new "私もバトルトーナメント好きなんですよ！"
 
     # game/scripts/event2.rpy:156
     old "Oh... I like to play on my GamePoke instead."
@@ -546,5 +546,5 @@ translate japanese strings:
 
     # game/scripts/event2.rpy:251
     old "Maybe so"
-    new "かも。"
+    new "かも"
 
