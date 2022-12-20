@@ -37,7 +37,7 @@ screen game_over(punch = False):
         xalign 0.5 yalign 0.7
         spacing 30
 
-        textbutton _("Retry"):
+        textbutton _("Retry From Start"):
             xalign 0.5
             action [Hide(), Jump("start")]
         textbutton _("Story Chart"):

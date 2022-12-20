@@ -21,11 +21,11 @@ label event2_start:
             pass
     
     show affection meter empty:
-        anchor (0.5, 0.5) xpos 1620 ypos -100 rotate 0
-        easein 0.5 ypos 130
+        anchor (0.5, 0.5) xpos 1620 ypos -180 rotate 0
+        easein 0.5 ypos 180
     pause 0.5
     show affection meter:
-        ypos 130
+        ypos 180
     play sound "audio/effects/shiny.wav"
     show affection meter:
         matrixcolor BrightnessMatrix(0.0)

@@ -154,3 +154,16 @@ image button japanese flag idle:
 image button japanese flag hover:
     "button japanese flag idle"
     matrixcolor BrightnessMatrix(0.2)
+
+# Intro screen
+image intro screen bg:
+    "Intro Screen/Intro Screen.png"
+    asset_scale
+
+image continue button idle:
+    "Intro Screen/Continue Button Idle.png"
+    asset_scale
+
+image continue button hover:
+    "Intro Screen/Continue Button Hover.png"
+    asset_scale

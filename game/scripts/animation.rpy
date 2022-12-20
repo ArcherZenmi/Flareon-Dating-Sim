@@ -33,7 +33,7 @@ label fill_affection_meter:
     play sound "audio/effects/shiny.wav"
 
     show affection meter empty:
-        anchor (0.5, 0.5) xpos 1620 ypos 130 rotate 0
+        anchor (0.5, 0.5) xpos 1620 ypos 180 rotate 0
         matrixcolor BrightnessMatrix(0.0)
         linear 0.5 matrixcolor BrightnessMatrix(1.0)
     show affection meter full:

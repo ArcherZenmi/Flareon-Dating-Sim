@@ -7,10 +7,9 @@ translate japanese strings:
     new "ゲームオーバー"
 
     # game/scripts/game_over.rpy:40
-    old "Retry"
-    new "リトライ"
+    old "Retry From Start"
+    new "初めから"
 
     # game/scripts/game_over.rpy:43
     old "Story Chart"
     new "ストーリー表"
-

@@ -13,7 +13,7 @@ label finale:
     f "Oh my Arceus! Could it be?"
     f "Are you... the one for me?"
 
-    play music "audio/music/oh-one-true-love.mp3"
+    play music "audio/music/hello-instrumental.mp3"
     show flareon happy
     f "Hello?"
     menu:

@@ -18,7 +18,7 @@ label event3_start:
     stop music fadeout 1.0
     play sound "audio/effects/break.wav"
     show affection meter:
-        anchor (0.5, 0.5) xpos 1620 ypos 130 rotate 0
+        anchor (0.5, 0.5) xpos 1620 ypos 180 rotate 0
         parallel:
             linear 0.5 xpos 1820 rotate 45
         parallel:

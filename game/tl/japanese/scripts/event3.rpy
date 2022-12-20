@@ -16,7 +16,7 @@ translate japanese event3_start_a7c54a66:
 translate japanese event3_start_ef531094:
 
     # f "Still unsatisfied?"
-    f "なんか複雑？"
+    f "なんかすごい複雑？"
 
 # game/scripts/event3.rpy:41
 translate japanese quiz_retry_5f120870:
