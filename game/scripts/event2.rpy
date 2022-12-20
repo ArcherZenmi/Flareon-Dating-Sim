@@ -44,6 +44,8 @@ label event2_start:
 
 
 label event2_restart:
+    $ persistent.game_counter += 1
+
     scene bg
     show flareon normal
 

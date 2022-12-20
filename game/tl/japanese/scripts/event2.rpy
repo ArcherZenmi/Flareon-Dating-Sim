@@ -52,13 +52,13 @@ translate japanese event2_drunk_72cf30d6:
 translate japanese event2_drunk_d1d2955c:
 
     # f "Traitor!"
-    f "二重スパイ！"
+    f "二重スパイだな！"
 
 # game/scripts/event2.rpy:73
 translate japanese event2_drunk_d5c45206:
 
     # f "Jolteon, this spy is trying to take our intelliegence!"
-    f "サンダース、スパイがインテリジェンスを盗み出そうとしてるよ！"
+    f "サンダース、このスパイがインテリジェンスを盗み出そうとしてるよ！"
 
 # game/scripts/event2.rpy:75
 translate japanese event2_drunk_03d0b140:
@@ -232,7 +232,7 @@ translate japanese event2_hobbies_db4abf90:
 translate japanese event2_hobbies_d4bd9517:
 
     # f "Then who’s the current champion of the NWI guild-hosted tournaments?"
-    f "じゃあ今ＮＷＩギルドの主催してるバトルコンテストのチャンピオンは誰？"
+    f "じゃあ、今ＮＷＩギルドの主催してるバトルコンテストのチャンピオンは誰？"
 
 # game/scripts/event2.rpy:164
 translate japanese event2_hobbies_63da3e6d:
@@ -244,7 +244,7 @@ translate japanese event2_hobbies_63da3e6d:
 translate japanese event2_hobbies_f7e6c7af:
 
     # f "Sylveon is so cool! He’s not just strong, but his battle style is so stylish. And also he’s shiny!"
-    f "ニンフィアってすごいよね！強いだけじゃなくて、戦うスタイルもカッコいいんだよ。あと色違いだしね！"
+    f "ニンフィアってすごいよね！強いだけじゃなくて、戦うスタイルもカッコイイんだよ。あと色違いだしね！"
 
 # game/scripts/event2.rpy:168
 translate japanese event2_hobbies_b91449e8:
@@ -298,7 +298,7 @@ translate japanese event2_hobbies_b8525beb:
 translate japanese event2_hobbies_c38d9735:
 
     # f "Anyways."
-    f "もういいや。"
+    f "まあいいや。"
 
 # game/scripts/event2.rpy:191
 translate japanese event2_hobbies_046e3719:
@@ -490,7 +490,7 @@ translate japanese strings:
 
     # game/scripts/event2.rpy:59
     old "Let me show you the magical invention of alcohol"
-    new "君にポケモン界の誇る発明、別名お酒を見せてあげよう。"
+    new "君にポケモン界の誇る発明、お酒を見せてあげよう。"
 
     # game/scripts/event2.rpy:59
     old "Let's go to starbucks"
@@ -510,7 +510,7 @@ translate japanese strings:
 
     # game/scripts/event2.rpy:79
     old "No prob bro. Mind if I date your lil bro?"
-    new "構わないぜ。お前の弟をデートしたいぜ？"
+    new "構わないぜ。お前の弟とデートしたいぜ？"
 
     # game/scripts/event2.rpy:156
     old "I love those guild hosted tournaments!"

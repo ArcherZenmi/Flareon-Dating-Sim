@@ -40,7 +40,7 @@ translate japanese finale_338d3a20:
 translate japanese finale_a8ea7a8b:
 
     # f "Hehe... well, I did promise we could date if you passed."
-    f "へへっ。。。クイズを全部解けたらデートする約束したよね。"
+    f "へへっ。。。クイズを全問解けたらデートする約束だったよね。"
 
 # game/scripts/finale.rpy:35
 translate japanese finale_97301ab3:
@@ -130,7 +130,7 @@ translate japanese finale_47a69705:
 translate japanese finale_76134078:
 
     # f "Well let's go then. Now!"
-    f "じゃあもう行こ！今！"
+    f "じゃあもう行こ！今すぐ！"
 
 translate japanese strings:
 

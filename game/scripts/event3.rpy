@@ -31,6 +31,8 @@ label event3_start:
     jump quiz_retry
 
 label event3_restart:
+    $ persistent.game_counter += 1
+
     jump quiz_retry
     
 

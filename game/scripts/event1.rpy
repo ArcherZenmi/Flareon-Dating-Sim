@@ -33,6 +33,8 @@ label event1_start:
 
 
 label event1_restart:
+    $ persistent.game_counter += 1
+
     scene bg
     show flareon surprised
 

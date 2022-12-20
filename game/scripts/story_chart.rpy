@@ -88,7 +88,7 @@ screen story_chart():
 
     # Finished Endings
     # Ending 1
-    if(persistent.ending_1_reached):
+    if persistent.ending_1_reached:
         add "heart icon 1":
             anchor (0.5, 0.5)
             xpos int(2235 * asset_scale) ypos int(1485 * asset_scale)
@@ -99,7 +99,7 @@ screen story_chart():
             xpos int(2235 * asset_scale) ypos int(1485 * asset_scale)
             zoom 0.66
     # Ending 2
-    if(persistent.ending_2_reached):
+    if persistent.ending_2_reached:
         add "heart icon 2":
             anchor (0.5, 0.5)
             xpos int(2395 * asset_scale) ypos int(1485 * asset_scale)
@@ -107,10 +107,10 @@ screen story_chart():
     else:
         add "heart icon empty":
             anchor (0.5, 0.5)
-            xpos int(2555 * asset_scale) ypos int(1485 * asset_scale)
+            xpos int(2395 * asset_scale) ypos int(1485 * asset_scale)
             zoom 0.66
-    # Ending 3
-    if(persistent.ending_3_reached):
+    # # Ending 3
+    if persistent.ending_3_reached:
         add "heart icon 3":
             anchor (0.5, 0.5)
             xpos int(2555 * asset_scale) ypos int(1485 * asset_scale)
@@ -118,7 +118,7 @@ screen story_chart():
     else:
         add "heart icon empty":
             anchor (0.5, 0.5)
-            xpos int(2395 * asset_scale) ypos int(1485 * asset_scale)
+            xpos int(2555 * asset_scale) ypos int(1485 * asset_scale)
             zoom 0.66
 
     # Ending 0

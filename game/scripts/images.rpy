@@ -9,7 +9,7 @@
 #       However, animations & complex visuals should be specified elsewhere.
 #
 
-# Transform to fix to screen
+# Transform to fit to screen
 transform asset_scale:
     zoom (2.0 / 3)
 
