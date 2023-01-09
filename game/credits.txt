@@ -1,9 +1,9 @@
-Code/App Credits:
+Code/App Credits
 - Glitch effect in RenPy: https://lemmasoft.renai.us/forums/viewtopic.php?t=60668
 - Sound effects made using: https://sfbgames.itch.io/chiptone
 - Converting youtube to mp3 (my ARCEUS this is more difficult than you think to do while avoid malware adfjskfkaakjfdsa): https://yout.com/video-mp3/
 
-Sound Credits:
+Sound Credits
 - Door knocking: https://www.youtube.com/watch?v=9O55mB0-BTM
 - Door breaking: https://www.youtube.com/watch?v=ztEHpEz8Gr8
 - Punch Sound: https://www.youtube.com/watch?v=OZdIbJZdSZw
@@ -11,13 +11,13 @@ Sound Credits:
 - Pokemon Item Sound: Mudkip Goes to Walmart then Dies (no longer exists on the internet)
 - "Hello" song instrumental: https://www.youtube.com/watch?v=ORVVskXSKPI
 
-Image Credits:
+Image Credits
 - Tposing Jolteon: https://www.reddit.com/r/TPoseMemes/comments/f987u8/jolteon_in_a_tpose/
 - US Flag: https://en.wikipedia.org/wiki/Flag_of_the_United_States
 - Japanese Flag: https://en.wikipedia.org/wiki/Flag_of_Japan
 
-Font Credits:
+Font Credits
 - Font: https://www.freejapanesefont.com/mochiy-pop-one-download/
 
-Hello Song, Japanese Translation:
+Hello Song, Japanese Translation
 - Tl: http://einzelzelle.blogspot.com/2013/11/lionel-richie-hello_11.html
