@@ -10,9 +10,9 @@
 init python:
     def voiceCallback(event, name, **kwargs):
         if event == "show":
-            renpy.sound.play(f"audio/voice/{name}.wav", channel="sound", loop=True)
+            renpy.sound.play("audio/voice/{_name}.wav".format(_name = name), channel="sound", loop=True)
         elif event == "slow_done":
-            renpy.sound.play(f"audio/voice/{name}.wav", channel="sound")
+            renpy.sound.play("audio/voice/{_name}.wav".format(_name = name), channel="sound")
             renpy.sound.stop(channel="voice")
 
 # Define characters

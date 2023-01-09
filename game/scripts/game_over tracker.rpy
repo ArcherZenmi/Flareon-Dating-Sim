@@ -14,7 +14,7 @@ init:
 
 init python:
     def event1_fail_count():
-        count: int = 0
+        count = 0
 
         for b in persistent.event1_game_overs:
             if(b):
@@ -23,7 +23,7 @@ init python:
         return count
 
     def event2_fail_count():
-        count: int = 0
+        count = 0
 
         for b in persistent.event2_game_overs:
             if(b):
@@ -32,7 +32,7 @@ init python:
         return count
 
     def event3_fail_count():
-        count: int = 0
+        count = 0
 
         for b in persistent.event3_game_overs:
             if(b):
