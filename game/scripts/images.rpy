@@ -11,7 +11,8 @@
 
 # Transform to fit to screen
 transform asset_scale:
-    zoom (2.0 / 3)
+    #zoom (2.0 / 3)
+    zoom 1.0
 
 # Flareon's Expressions
 image flareon normal:
